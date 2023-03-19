@@ -11,7 +11,7 @@ const Blog = () => {
       <div className="mb-8 mt-10 md:flex justify-between w-[80%] mx-auto">
       {blogData.map((data) => (
           <div className="w-full mb-16 md:mb-0 md:w-[24%]" key={data?.id}>
-          <img src={data?.image} alt className="rounded-[15px] w-full h-[209px]" />
+          <img src={data?.image} alt="" className="rounded-[15px] w-full h-[209px]" />
           <p className="text-base leading-7 my-4">
             Category <span className="text-gray">{data?.category}</span>
           </p>

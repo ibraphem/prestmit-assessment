@@ -30,10 +30,10 @@ const Services = () => {
             <p className="text-2xl my-4">{data?.title}</p>
             <p className="text-xl text-gray mb-2">{data?.desc}</p>
             <div className="flex justify-between items-center w-[150px] border-b-[2px] border-gray py-2">
-              <a href="#" className="font-bold mr-2">
+              <a href="/" className="font-bold mr-2">
                 Explore page
               </a>
-              <img src={arrowright} alt className="w-6" />
+              <img src={arrowright} alt="" className="w-6" />
             </div>
           </div>
         ))}
@@ -41,7 +41,7 @@ const Services = () => {
 
       <div className="mb-8 mt-40 lg:flex justify-between w-[90%] lg:w-[80%] mx-auto">
         <div className="w-full lg:w-[40%] rounded-[15px] relative mb-4 text-main">
-          <img src={man} alt className="h-full w-full" />
+          <img src={man} alt="" className="h-full w-full" />
           <div className="p-4 shadow-lg bg-[white] rounded-[12px] absolute right-[55px] bottom-[-16%]">
             <img src={graph2} alt="graph2" className="mx-auto h-[200px]" />
             <h4 className="text-2xl font-bold my-4">30%</h4>
@@ -55,15 +55,15 @@ const Services = () => {
           </h2>
           <ul className="text-xl leading-[32px]">
             <div className="flex items-center mb-4">
-              <img src={check} alt className="mr-6 h-8 w-8" />
+              <img src={check} alt="" className="mr-6 h-8 w-8" />
               <p>We connect our customers with the best</p>
             </div>
             <div className="flex items-center mb-4">
-              <img src={check} alt className="mr-6 h-8 w-8" />
+              <img src={check} alt="" className="mr-6 h-8 w-8" />
               <p>Advisor success customer launch party</p>
             </div>
             <div className="flex items-center mb-4">
-              <img src={check} alt className="mr-6 h-8 w-8" />
+              <img src={check} alt="" className="mr-6 h-8 w-8" />
               <p>Business-to-consumer long tail</p>
             </div>
           </ul>
